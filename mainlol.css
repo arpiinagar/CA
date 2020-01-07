@@ -1,0 +1,98 @@
+
+.nav-bar
+{
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul
+{
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+#revels-logo
+{
+    height: 30px;
+}
+a
+{
+    text-decoration: none;
+}
+.nav-bar li
+{
+    padding: 5px 15px;
+    display: inline-block;
+
+}
+.inner 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+.landing-container
+{
+    text-align: center;
+}
+.revels
+{
+    color: black;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+hr
+{
+    border-width: 0;
+    height: 1px;
+    background-color: black;
+}
+.campus-ambassador
+{
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #60c1fc;
+}
+.about
+{
+    text-align: center;
+}
+.about ul
+{
+    list-style-type: none;
+
+}
+.about li
+{
+    text-align: center;
+}
+.register
+{
+
+}
+input[type=text]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+    margin: auto;
+    padding-left: 8px;
+    padding-top: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder
+{
+    color: grey;
+}
+
+
