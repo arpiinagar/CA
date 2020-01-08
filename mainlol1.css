@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#revels-logo
+{
+    /*padding-left: 30%;*/
+    height: 50%;
+}
+.campus-ambassador
+{
+   padding-top: 0px;
+   
+   padding-bottom: 0%;
+   text-align: center;
+    font-family: serif;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #60c1fc;
+}
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+   /* padding-left: 30px;
+    /*padding-right: 30px;*/
+    padding-bottom: 30px;
+    padding-top: 0%;
+}
+.about
+{  padding-top: 10px;
+   float: left;
+    text-align: center;
+    width: 70%;
+    height: 50vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #60c1fc;
+    opacity: 80%;
+    border: 10px;
+    margin: 0px 20px 20px 20px;
+    font-size: 1.2em;
+}
+span{
+    background-color: #60c1fc;
+}
+.about ul
+{
+    background-color: #60c1fc;
+    list-style-type: none;
+   
+}
+.about li
+{
+    background-color: #60c1fc;
+    text-align: center;
+}
+.register
+{
+    border: 10px;
+    margin: 0px 20px 20px 20px;
+    width: 70%;
+    opacity: 80%;
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:#edd3cc;
+   
+}
+input
+{
+    background: transparent;
+    border: 1px solid #edd3cc;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+    margin: auto;
+    padding-left: 8px;
+    padding-top: 15px;
+    color: grey;
+    
+}
+input[name="about"]{
+
+   padding-right: 20px;
+
+   
+
+}
+#submit{
+
+    margin-top: 20px;
+    background-color: tomato;
+    border: 2px solid tomato;
+    padding: 4px 25px 4px 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    color: white;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #edd3cc;
+}
+select{
+    background-color: #edd3cc;
+    background: transparent;
+    border: 1px solid #edd3cc;
+    border-bottom: 1px solid #000000;
+    /*padding: 2px 5px;*/
+    margin: auto;
+    padding-left: 8px;
+    padding-top: 15px;
+    padding-right: 30px;
+    color: grey;
+  
+}
+::placeholder
+{
+    color: grey;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) 
+{
+.bottom
+{
+    
+    flex-direction: row;
+    padding: 30px;
+}
+.about
+{
+    width: 40%;
+    height: 70vh;
+    padding: 40px;
+}
+#revels-logo
+{
+    /*padding-left: 30%;*/
+    height: 100%;
+}
+.register
+{
+   
+    margin-left: 30px;
+    width: 40%; 
+    height: 70vh;
+}
+}
+
