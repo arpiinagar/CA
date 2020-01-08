@@ -10,10 +10,10 @@
     </head>
     <body>
         <div class="header">
-            <img src="Revels2020_Logo_NoBG_LightBG.png" height="100" width="100">
+            <img src="./Revels2020_Logo-wText_DarkBG.svg" height="140" width="140">
         <h1>Campus Ambassador</h1>
     </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis beatae, sed repellendus, minima quasi magni a corrupti ratione esse praesentium, iure enim. Omnis tempora cupiditate tenetur atque quasi quisquam dolor.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Corporis beatae, sed repellendus, minima quasi magni a corrupti ratione esse praesentium, iure enim. Omnis tempora cupiditate tenetur atque quasi quisquam dolor.<br>
            Lisd siane guy dior sem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate hic, quidem voluptates atque tempora repudiandae officiis tempore aliquid magni quas dolores aspernatur nam omnis laborum debitis animi exercitationem! Veritatis, nobis?</p><br><ul>
 
             <li>long point</li>
@@ -29,11 +29,14 @@
             <input type="email" name="email" placeholder="EMAIL" required>
             <input type="tel" name="tel" placeholder="PHONE NUMBER" required maxlength="10" minlength="10">
             <input type="text" name="College"placeholder="COLLEGE NAME" required> <br>
-            <input type="radio" name="year-study" value="1st-year"> 1st year <br>
-            <input type="radio" name="year-study" value="2nd-year"> 2nd year <br>
-            <input type="radio" name="year-study" value="3rd-year"> 3rd year <br>
-            <input type="radio" name="year-study" value="4th-year"> 4th year <br>   
-            <input type="textbox" name="about" placeholder="TELL US SOMETHING ABOUT YOURSELF" required minlength="1">
+            <select name="year-study">
+                <option value="" disabled selected><span>YEAR OF STUDY </span></option>
+                <option value="first">First</option>
+                <option value="second">Second</option>
+                <option value="third">Third</option>
+                <option value="fourth">Fourth</option>
+              </select>   
+            <input type="textbox" name="about" placeholder="ABOUT YOURSELF" required minlength="1">
             <button id="submit">SUBMIT</button>
         </div>
         <footer>
