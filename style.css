@@ -26,7 +26,9 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    background-color: #fcf9ca;
+}
 
     .header{
         display: flex;
@@ -77,7 +79,7 @@ p,li{
     background-color: #edd3cc;
 }
 
-input{
+input,select{
     border-radius: 20px;
     border: 2px solid #C2414A;
     padding-right: 95px;
@@ -90,6 +92,17 @@ input{
     margin-top: 12.5px;
     font-size: .95em;
 }
+select{
+    padding-right: 178px;
+    padding-left: 12px;
+    padding-top: 11.3px;
+    padding-bottom: 11.3px;
+    margin-top: 0px;
+    font-size: .8em;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;   
+}
 ::placeholder{
     color: #e0613f;
     padding-left:4px;
@@ -97,14 +110,14 @@ input{
 
 input[name="about"]{
     padding-bottom: 100px;
-    font-size: 60%;
 }
 
 #submit{
     margin-top: 20px;
     background-color: tomato;
     border: 2px solid tomato;
-    padding: 4px 25px 4px 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -129,7 +142,6 @@ footer{
         font-size: 3.5em;
         margin: auto;
         padding-left: 0px;
-        
     }
 
     p{
