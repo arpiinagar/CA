@@ -1,4 +1,4 @@
-            @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,600,700&display=swap');
             html,
             body,
             div,
@@ -87,6 +87,10 @@
                 vertical-align: baseline;
             }
             
+            #logo {
+                width: 28vw;
+            }
+            
             body {
                 width: 100vw;
                 overflow-x: hidden;
@@ -95,6 +99,7 @@
                 align-items: center;
                 flex-direction: column;
                 background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(250, 166, 132, 1) 100%);
+                background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(250, 166, 132, 1) 100%);
             }
             
             .header {
@@ -126,6 +131,7 @@
             
             p {
                 padding-top: 25px;
+                font-weight: 300;
             }
             
             ul {
@@ -171,8 +177,8 @@
             }
             
             select {
-                padding-right: 198px;
-                padding-left: 6px;
+                padding-right: 145px;
+                padding-left: 12px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 margin-top: 0px;
@@ -180,7 +186,6 @@
                 -webkit-appearance: none;
                 -moz-appearance: none;
                 appearance: none;
-                margin-top: 10px;
             }
             
              ::placeholder {
@@ -227,6 +232,11 @@
                     width: 75vw;
                     font-size: 1.3em;
                 }
+                select {
+                    padding-right: 200px;
+                    padding-top: 13px;
+                    padding-left: 15px;
+                }
                 #form {
                     width: 55%;
                 }
@@ -242,9 +252,9 @@
                     margin: auto;
                     padding-left: 0px;
                 }
-                img {
-                    height: 130px;
-                    width: 130px;
+                #logo {
+                    height: 20vw;
+                    width: 20vw;
                 }
                 p {
                     width: 80vw;
@@ -258,7 +268,8 @@
                     font-size: 1.4em;
                 }
                 select {
-                    padding-right: 260px;
+                    padding-right: 200px;
                     padding-top: 13px;
+                    padding-left: 15px;
                 }
             }
