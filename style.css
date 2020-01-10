@@ -1,183 +1,268 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto:400,500|Source+Sans+Pro:400,500&display=swap');
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-
-body{
-    width: 100vw;
-    overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fffde6;
-}
-
-    .header{
-        display: flex;
-        padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-    justify-content: space-around;   
-    background-color: #d8ece8;
-    font-family: 'Bebas Neue', cursive;
-    }
-h1{
-    padding-left: 20px;
-    font-size: 2.7em;
-    letter-spacing: 2px;
-}
-
-h3{
-    font-size: 1.8em;
-    padding-bottom: 10px;
-    font-family: 'Bebas Neue', cursive;
-}
-p{
-    padding-top: 25px;
-}
-
-ul{
-    padding-bottom: 20px;
-}
-p,li{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1em;
-    color: #350f41 !important;
-    font-weight: 500;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #edd3cc;
-}
-
-input,select{
-    border-radius: 20px;
-    border: 2px solid #C2414A;
-    padding-right: 95px;
-    padding-left: 8px;
-    padding-top: 11.3px;
-    padding-bottom: 11.3px;
-    color:black;
-    background-color: transparent;
-    opacity: 75%;
-    margin-top: 12.5px;
-    font-size: .95em;
-}
-select{
-    padding-right: 178px;
-    padding-left: 12px;
-    padding-top: 11.3px;
-    padding-bottom: 11.3px;
-    margin-top: 0px;
-    font-size: .8em;
-    -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;   
-}
-::placeholder{
-    color: #e0613f;
-    padding-left:4px;
-}
-
-input[name="about"]{
-    padding-bottom: 100px;
-}
-
-#submit{
-    margin-top: 20px;
-    background-color: tomato;
-    border: 2px solid tomato;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 30%;
-    color: white;
-}
-
-footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 1em;
-    
-}
-
-@media only screen and (min-width: 441px) {
-    .header{
-        justify-content: flex-start;
-        display: flex;
-    }
-    h1{
-        font-size: 3.5em;
-        margin: auto;
-        padding-left: 0px;
-    }
-
-    p{
-        width: 75vw;
-        font-size: 1.3em;
-    }
-
-    #form{
-        width: 55%;
-    }
-}
-@media only screen and (min-width: 768px) {
-    .header{
-        justify-content: flex-start;
-        display: flex;
-       
-    }
-    h1{
-        font-size: 5.0em;
-        margin: auto;
-        padding-left: 0px;
-        
-    }
-
-    img{
-        height:130px; width:130px;
-    }
-
-    p{
-        width: 60vw;
-        font-size: 1.3em;
-    }
-
-
-    #form{
-        width: 40%;
-    }
-}
+            @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap');
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                vertical-align: baseline;
+            }
+            
+            body {
+                width: 100vw;
+                overflow-x: hidden;
+                font-family: 'Raleway', sans-serif;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(250, 166, 132, 1) 100%);
+            }
+            
+            .header {
+                display: flex;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                width: 100%;
+                font-family: 'Raleway', sans-serif;
+            }
+            
+            h1 {
+                padding-right: 10px;
+                font-size: 2.3em;
+                letter-spacing: 2px;
+                color: #fccab7;
+                padding-top: 10px;
+            }
+            
+            span {
+                color: #fabc90;
+            }
+            
+            h3 {
+                font-size: 2.2em;
+                padding-bottom: 10px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 600;
+            }
+            
+            p {
+                padding-top: 25px;
+            }
+            
+            ul {
+                padding-bottom: 20px;
+            }
+            
+            p,
+            li {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 1.0em;
+                color: #350f41 !important;
+                font-weight: 500;
+                text-align: center;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            #form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 75%;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            
+            input,
+            select {
+                border-radius: 20px;
+                border: 2px solid #C2414A;
+                padding-right: 95px;
+                padding-left: 8px;
+                padding-top: 11.3px;
+                padding-bottom: 11.3px;
+                color: black;
+                background-color: transparent;
+                opacity: 75%;
+                margin-top: 12.5px;
+                font-size: .8em;
+            }
+            
+            select {
+                padding-right: 198px;
+                padding-left: 6px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-top: 0px;
+                font-size: .8em;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                margin-top: 10px;
+            }
+            
+             ::placeholder {
+                color: #e0613f;
+                padding-left: 4px;
+                font-weight: 500;
+            }
+            
+            input[name="about"] {
+                padding-bottom: 100px;
+            }
+            
+            #submit {
+                margin-top: 20px;
+                background-color: tomato;
+                border: 2px solid tomato;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                width: 30%;
+                color: white;
+            }
+            
+            footer {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 1em;
+            }
+            
+            @media only screen and (min-width: 441px) {
+                .header {
+                    justify-content: flex-start;
+                    display: flex;
+                }
+                h1 {
+                    font-size: 3.5em;
+                    margin: auto;
+                    padding-left: 0px;
+                }
+                p {
+                    width: 75vw;
+                    font-size: 1.3em;
+                }
+                #form {
+                    width: 55%;
+                }
+            }
+            
+            @media only screen and (min-width: 768px) {
+                .header {
+                    justify-content: flex-start;
+                    display: flex;
+                }
+                #logo {
+                    width: 21vw;
+                    height: 25vh;
+                }
+                h1 {
+                    font-size: 4.5em;
+                    margin: auto;
+                    padding-left: 0px;
+                }
+                img {
+                    height: 130px;
+                    width: 130px;
+                }
+                p {
+                    width: 80vw;
+                    font-size: 1.3em;
+                }
+                #form {
+                    width: 40%;
+                }
+                input,
+                select {
+                    font-size: 1.4em;
+                }
+                select {
+                    padding-right: 260px;
+                    padding-top: 13px;
+                }
+            }

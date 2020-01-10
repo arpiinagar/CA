@@ -1,50 +1,66 @@
 <html>
-    <head>
-        <title>Campus Ambassador | Revels'20</title>
-        <link rel="stylesheet" src="styles.css">
-        <meta charset="UTF-8">
-        <meta name="description" content="Join us as a Campus Ambassador for Revels'20!">
-        <meta name="keywords" content="Revels, Revels'20, Mjbub, Quinaat">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="header">
-            <img src="./Revels2020_Logo_NoBG_LightBG.png" height="120" width="120">
-        <h1>Campus Ambassador</h1>
+
+<head>
+    <title>Campus Ambassador | Revels'20</title>
+    <link rel="stylesheet" src="styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Join us as a Campus Ambassador for Revels'20!">
+    <meta name="keywords" content="Revels, Revels'20, Mjbub, Quinaat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./Revels2020_Logo expand 3_LightBG.svg" id="logo">
+        <h1>Campus <span>Ambassador</span> </h1>
+        <hr noshade="1">
     </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Corporis beatae, sed repellendus, minima quasi magni a corrupti ratione esse praesentium, iure enim. Omnis tempora cupiditate tenetur atque quasi quisquam dolor.<br>
-           Lisd siane guy dior sem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate hic, quidem voluptates atque tempora repudiandae officiis tempore aliquid magni quas dolores aspernatur nam omnis laborum debitis animi exercitationem! Veritatis, nobis?</p><br><ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis beatae, sed repellendus, minima quasi magni a corrupti ratione esse praesentium, iure enim. Omnis tempora cupiditate tenetur atque quasi quisquam dolor.Lisd siane guy dior sem. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate hic, quidem voluptates atque tempora repudiandae officiis tempore aliquid magni quas dolores aspernatur nam omnis laborum debitis animi exercitationem! Veritatis, nobis? Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Adipisci itaque reiciendis dicta perspiciatis debitis est eos non repellendus voluptatibus veniam quibusdam earum iure voluptas, recusandae harum eveniet quo quia odit?</p><br>
+    <ul>
 
-            <li>long point</li>
-            <li>not a very long point</li>
-            <li>point 3</li>
-            <li>point 4</li>
-        </ul>
-    
+        <li>long point</li>
+        <li>not a very long point</li>
+        <li>point 3</li>
+        <li>point 4</li>
+    </ul>
 
-        <div id="form">
-            <h3>Registration</h3>
-            <input type="text" name="name" placeholder="NAME" required>
-            <input type="email" name="email" placeholder="EMAIL" required>
-            <input type="tel" name="tel" placeholder="PHONE NUMBER" required maxlength="10" minlength="10">
-            <input type="text" name="College"placeholder="COLLEGE NAME" required> <br>
-            <select name="year-study">
+
+    <div id="form">
+        <h3>Registration</h3>
+        <input type="text" name="name" placeholder="NAME" required>
+        <input type="email" name="email" placeholder="EMAIL" required>
+        <input type="tel" name="tel" placeholder="PHONE NUMBER" required maxlength="10" minlength="10">
+        <input type="text" name="College" placeholder="COLLEGE NAME" required> <br>
+        <select name="year-study">
                 <option value="" disabled selected><span>YEAR OF STUDY </span></option>
-                <option value="first">First</option>
-                <option value="second">Second</option>
-                <option value="third">Third</option>
-                <option value="fourth">Fourth</option>
-              </select>   
-            <input type="textbox" name="about" placeholder="ABOUT YOURSELF" required minlength="1">
-            <button id="submit">SUBMIT</button>
-        </div>
-        <footer>
-            Developed By srinchow and ramrathi
-        </footer>
-    </body>
+                <option value="first">FIRST</option>
+                <option value="second">SECOND</option>
+                <option value="third">THIRD</option>
+                <option value="fourth">FOURTH</option>
+              </select>
+        <input type="textbox" name="about" placeholder="ABOUT YOURSELF" required minlength="1">
+        <button id="submit">SUBMIT</button>
+    </div>
+    <footer>
+        Developed By System Admin and Web Dev.
+    </footer>
+</body>
 
-    <script type="text/javascript" src="scripts.js">
-    
-    </script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LexFM4UAAAAABAWToB3upLdOYqAklxt9PiLv_b0">
+</script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LexFM4UAAAAABAWToB3upLdOYqAklxt9PiLv_b0', {
+            action: 'homepage'
+        }).then(function(token) {
+
+        });
+    });
+</script>
+<script type="text/javascript" src="scripts.js"></script>
+
+
 </html>
