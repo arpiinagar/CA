@@ -237,10 +237,6 @@
                     justify-content: flex-start;
                     display: flex;
                 }
-                #logo {
-                    width: 21vw;
-                    height: 25vh;
-                }
                 h1 {
                     font-size: 4.5em;
                     margin: auto;
