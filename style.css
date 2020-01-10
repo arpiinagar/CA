@@ -89,6 +89,7 @@
             
             #logo {
                 width: 28vw;
+                height: 28vw;
             }
             
             body {
@@ -111,7 +112,7 @@
             }
             
             h1 {
-                padding-right: 10px;
+                margin-right: 10px;
                 font-size: 2.3em;
                 letter-spacing: 2px;
                 color: #fccab7;
