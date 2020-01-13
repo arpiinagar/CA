@@ -88,8 +88,8 @@
             }
             
             #logo {
-                width: 28vw;
-                height: 28vw;
+                width: 35vw;
+                height: 25vh;
             }
             
             body {
@@ -105,9 +105,9 @@
             
             .header {
                 display: flex;
-                padding-top: 20px;
-                padding-bottom: 20px;
-                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                align-items: center;
                 font-family: 'Raleway', sans-serif;
             }
             
@@ -127,23 +127,32 @@
                 font-size: 2.2em;
                 padding-bottom: 10px;
                 font-family: 'Raleway', sans-serif;
-                font-weight: 600;
+                font-weight: 500;
             }
             
-            p {
-                padding-top: 25px;
-                font-weight: 300;
+            h4 {
+                font-size: 1.8em;
+                padding-bottom: 10px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 500;
+            }
+            
+            .content {
+                font-size: .8em;
+                color: #350f41;
+                font-weight: 400;
+                padding-left: 20px;
+                padding-right: 20px;
             }
             
             ul {
                 padding-bottom: 20px;
             }
             
-            p,
             li {
                 font-family: 'Source Sans Pro', sans-serif;
-                font-size: 1.0em;
-                color: #350f41 !important;
+                font-size: .8em;
+                color: #350f41;
                 font-weight: 500;
                 text-align: center;
                 padding-left: 20px;
@@ -160,6 +169,10 @@
                 padding-bottom: 20px;
                 padding-left: 30px;
                 padding-right: 30px;
+            }
+            
+            #regis {
+                font-weight: 700;
             }
             
             input,
@@ -229,9 +242,16 @@
                     margin: auto;
                     padding-left: 0px;
                 }
-                p {
-                    width: 75vw;
+                .content {
+                    width: 70vw;
                     font-size: 1.3em;
+                }
+                ul {
+                    font-size: 1.3em;
+                }
+                input,
+                select {
+                    font-size: 1.4em;
                 }
                 select {
                     padding-right: 200px;
@@ -239,11 +259,11 @@
                     padding-left: 15px;
                 }
                 #form {
-                    width: 55%;
+                    width: 55vw;
                 }
             }
             
-            @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 770px) {
                 .header {
                     justify-content: flex-start;
                     display: flex;
@@ -257,8 +277,11 @@
                     height: 20vw;
                     width: 20vw;
                 }
-                p {
-                    width: 80vw;
+                .content {
+                    width: 70vw;
+                    font-size: 1.3em;
+                }
+                ul {
                     font-size: 1.3em;
                 }
                 #form {
